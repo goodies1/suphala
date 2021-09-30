@@ -100,6 +100,15 @@ h2 {
 }
 
 .arrow {
+    .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
     z-index: 1000;
     opacity: 0.5;
     position: absolute;
